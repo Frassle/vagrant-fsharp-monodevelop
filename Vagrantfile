@@ -76,7 +76,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision :shell, :path => "provisioning/provision.sh"
   config.vm.provision :shell, :path => "provisioning/install_fsharp.sh"
   config.vm.provision :shell, :path => "provisioning/install_monodevelop.sh"
-  config.vm.provision :shell, :path => "provisioning/install_fsharpbinding.sh"
+  # config.vm.provision :shell, :path => "provisioning/install_fsharpbinding.sh"
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
   # path, and data_bags path (all relative to this Vagrantfile), and adding
