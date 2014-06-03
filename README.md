@@ -7,7 +7,7 @@ Current setup:
 * Ubuntu Trusty
 * Xfce
 * FSharp 3.1.1
-* Monodevelop 4.2.2
+* Monodevelop 5.0
 
 [fsharp]: http://fsharp.org/
 [vagrant]: http://www.vagrantup.com/
